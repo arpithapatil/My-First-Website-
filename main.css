@@ -1,0 +1,117 @@
+body {
+  font-family: 'echo', sans-serif;
+  font-weight: 300;
+}
+
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Comic Sans", cursive;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+}
+
+header nav {
+  font-family: "Comic Sans", cursive;
+  font-size: 15px;
+  font-weight:900;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.columbustravelmedia.com/sites/default/files/Destinations.jpg');
+  background-size: cover;
+  color: 000000;
+  height: 1100px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+.jumbotron h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  color:000000;
+}
+
+.jumbotron h3 {
+  font-size: 40px;
+  margin: 0 0 20px;
+  color: 000000;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.col-sm-6 p {
+    font-size: 25px;
+    font-weight:700;
+}
+       
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  
+  background-color: #00FFFF;
+}
+
+.btn-secondary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0 0 20px;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #00FFFF;
+}
+
+footer {
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
